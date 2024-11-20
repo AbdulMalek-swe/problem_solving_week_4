@@ -23,7 +23,7 @@ int main()
     {
         sum += arr[r];
          
-        if (sum >= s)
+        if (sum <= s)
         {
             ans = max(ans, r - l + 1);
         }else{
